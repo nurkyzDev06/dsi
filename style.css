@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#header {
+    padding: 20px 0;
+    box-shadow: 0px 1px 4px 0px #00000040;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-group a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1F2E35CC;
+    padding: 0 25px;
+}
+
+.header-group select {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1F2E35CC;
+    padding-right: 8px;
+    border: none;
+    outline: none;
+    margin: 0 25px;
+}
+
+.header-icons ion-icon {
+    color: #1F2E35CC;
+    font-size: 25px;
+    padding-left: 24px;
+}
+
+#hero {
+    padding: 100px 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64.17px;
+    color: #000000;
+    width: 545px;
+}
+
+.hero-text h1 span {
+    color: #EE4248;
+}
+
+.hero-text p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.94px;
+    color: #30444E;
+    padding: 24px 0;
+    width: 520px;
+}
+
+.hero-text button {
+    color: white;
+    background: #EE4248;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 12px 32px;
+    border-radius: 5px;
+}
+
+#welcome {
+    background: #F6F6F6;
+}
+
+.welcome {
+    padding: 57px 0 63px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-text h1 {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 24px;
+    line-height: 42.78px;
+    width: 454px;
+}
+
+.welcome-text h1 span {
+    color: #EE4248;
+}
+
+.welcome-text p {
+    color: #30444E;
+    width: 520px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.welcome-text p span {
+    color: #EE4248;
+}
+
+#product {
+    padding: 100px 0;
+}
+
+.product h1 {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 41px;
+    color: #1F2E35;
+}
+
+.product-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-block h3 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #EE4248;
+    padding: 15px 0;
+}
+
+.product-block p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #30444E;
+    width: 319px;
+    padding-bottom: 15px;
+}
+
+.product-block button {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    background: #EE4248;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 0 0 13px 0;
+}
+
+.footer-text1 h5 {
+    font-size: 18px;
+    font-weight: 500;
+    padding:10px 0 8px 0;
+    color: #263238;
+}
+
+.footer-text1 p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26.85px;
+    text-align: left;
+    color: #263238;
+    padding-right: 47px;
+}
+
+.footer-text2 h5 {
+    color:#263238;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: left;
+    padding: 0 0 15px 0;
+}
+
+.footer-text2 p{
+    color:#263238;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26.85px;
+    text-align: left;
+}
+
+.footer-text-3 {
+    color: white;
+    background: #EE4248;
+    font-size: 18px;
+    font-weight: 400;
+    padding:22px 0 22px 0;
+    display:flex;
+    justify-content: center;
+}
